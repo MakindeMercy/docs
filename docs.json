@@ -20,9 +20,15 @@
         "tab": "API Reference",
         "groups": [
           {
-            "group": "Endpoint",
+            "group": "Getting Started",
             "pages": [
               "api-reference/introduction",
+              "api-reference/authentication"
+            ]
+          },
+          {
+            "group": "Endpoint",
+            "pages": [
               "api-reference/account-types/account-types",
               "api-reference/allocation-accounts/allocation-accounts",
               "api-reference/bank-accounts/bank-account",
