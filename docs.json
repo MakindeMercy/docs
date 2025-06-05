@@ -27,25 +27,74 @@
             ]
           },
           {
-            "group": "Endpoint",
+            "group": "Account Types",
             "pages": [
-              "api-reference/account-types/account-types",
-              "api-reference/allocation-accounts/allocation-accounts",
-              "api-reference/bank-accounts/bank-account",
-              "api-reference/customers/customers",
-              "api-reference/document-types/document-types",
-              "api-reference/employees/employees",
-              "api-reference/fixed-assets/fixed-assets",
+              "api-reference/account-types/account-types"
+            ]
+          },
+          {
+            "group": "Allocation Accounts",
+            "pages": [
+              "api-reference/allocation-accounts/allocation-accounts"
+            ]
+          },
+          {
+            "group": "Bank Accounts",
+            "pages": [
+              "api-reference/bank-accounts/bank-account"
+            ]
+          },
+          {
+            "group": "Customers",
+            "pages": [
+              "api-reference/customers/customers"
+            ]
+          },
+          {
+            "group": "Document Types",
+            "pages": [
+              "api-reference/document-types/document-types"
+            ]
+          },
+          {
+            "group": "Employees",
+            "pages": [
+              "api-reference/employees/employees"
+            ]
+          },
+          {
+            "group": "Fixed Assets",
+            "pages": [
+              "api-reference/fixed-assets/fixed-assets"
+            ]
+          },
+          {
+            "group": "General Journal Batches",
+            "pages": [
               "api-reference/general-journal-batches/create-new-journal-batch",
-              "api-reference/general-journal-batches/general-journal-batches",
+              "api-reference/general-journal-batches/general-journal-batches"
+            ]
+          },
+          {
+            "group": "General Journals",
+            "pages": [
+              "api-reference/general-journals/details",
               "api-reference/general-journals/add-details",
               "api-reference/general-journals/delete-details",
-              "api-reference/general-journals/details",
-              "api-reference/general-journals/fetch-by-batch",
               "api-reference/general-journals/update-details",
-              "api-reference/gl-accounts/gl-account",
-              "api-reference/vendors/vendors",
-              "api-reference/my-ip"
+              "api-reference/general-journals/fetch-by-batch"
+            ]
+          },
+          {
+            "group": "GL Accounts",
+            "pages": [
+              "api-reference/gl-accounts/gl-account"
+            ]
+          },
+          {
+            "group": "Vendors",
+            "pages": [
+              "api-reference/vendors/vendors"
             ]
           }
         ]
