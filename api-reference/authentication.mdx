@@ -1,0 +1,28 @@
+---
+title: Authentication
+description: Learn how to authenticate with the API
+icon: 'key'
+---
+
+The FAAN API uses basic authentication for securing access to its endpoints.
+
+## Authentication Method:
+- **Type**: Basic Auth
+- **Header**: Authorization
+- **Format**: The authentication credentials are passed via the Authorization header using username and password.
+
+```bash
+{Authorization: 'Basic <username><password>'}
+```
+
+## How to Authenticate:
+All API endpoints require you to include an Authorization header with basic authentication credentials in your requests.
+
+### Example:
+
+If you are calling the account types endpoint, you would include the following header in your request:
+```curl
+curl --request GET \
+  --url https://gemsupgrade.gemscloud.app/faan-pfs-middleware/api/account-types/fetch-all \
+  --header 'Authorization: Basic <your-username><your-password>'
+```
